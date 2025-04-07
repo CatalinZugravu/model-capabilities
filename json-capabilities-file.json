@@ -1,0 +1,512 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": 1712574035000,
+  "modelCapabilities": {
+    "gpt-4o": {
+      "id": "gpt-4o",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+      ],
+      "maxFileSizeMB": 25,
+      "maxInputTokens": 128000,
+      "maxConcurrentFiles": 25,
+      "requiresTextWithAttachments": false,
+      "supportsPhotoCapture": true,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg", "webp", "gif"],
+        "maxResolution": "4096x4096",
+        "ocr": true,
+        "detailLevels": ["low", "high", "auto"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": true,
+        "supportsExcel": true,
+        "supportsPowerPoint": true,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 25
+      }
+    },
+    
+    "gpt-4o-mini": {
+      "id": "gpt-4o-mini",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      ],
+      "maxFileSizeMB": 20,
+      "maxInputTokens": 100000,
+      "maxConcurrentFiles": 15,
+      "requiresTextWithAttachments": false,
+      "supportsPhotoCapture": true,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg", "webp", "gif"],
+        "maxResolution": "3072x3072",
+        "ocr": true,
+        "detailLevels": ["low", "high", "auto"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": true,
+        "supportsExcel": true,
+        "supportsPowerPoint": true,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 20
+      }
+    },
+    
+    "o1": {
+      "id": "o1",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+      ],
+      "maxFileSizeMB": 25,
+      "maxInputTokens": 128000,
+      "maxConcurrentFiles": 20,
+      "requiresTextWithAttachments": false,
+      "supportsPhotoCapture": true,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg", "webp", "gif"],
+        "maxResolution": "4096x4096",
+        "ocr": true,
+        "detailLevels": ["low", "high", "auto"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": true,
+        "supportsExcel": true,
+        "supportsPowerPoint": true,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 25
+      }
+    },
+    
+    "claude-3-7-sonnet-20250219": {
+      "id": "claude-3-7-sonnet-20250219",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv", 
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+      ],
+      "maxFileSizeMB": 30,
+      "maxInputTokens": 180000,
+      "maxConcurrentFiles": 20,
+      "requiresTextWithAttachments": false,
+      "supportsPhotoCapture": true,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg", "webp", "gif"],
+        "maxResolution": "4096x4096",
+        "ocr": true,
+        "detailLevels": ["low", "high"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": true,
+        "supportsExcel": true,
+        "supportsPowerPoint": true,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 100
+      }
+    },
+    
+    "claude-3-5-sonnet-20241022": {
+      "id": "claude-3-5-sonnet-20241022",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv", 
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      ],
+      "maxFileSizeMB": 25,
+      "maxInputTokens": 150000,
+      "maxConcurrentFiles": 20,
+      "requiresTextWithAttachments": false,
+      "supportsPhotoCapture": true,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg", "webp", "gif"],
+        "maxResolution": "4096x4096",
+        "ocr": true,
+        "detailLevels": ["low", "high"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": true,
+        "supportsExcel": true,
+        "supportsPowerPoint": true,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 80
+      }
+    },
+    
+    "claude-3-opus-20240229": {
+      "id": "claude-3-opus-20240229",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv", 
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+      ],
+      "maxFileSizeMB": 30,
+      "maxInputTokens": 200000,
+      "maxConcurrentFiles": 20,
+      "requiresTextWithAttachments": false,
+      "supportsPhotoCapture": true,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg", "webp", "gif"],
+        "maxResolution": "4096x4096",
+        "ocr": true,
+        "detailLevels": ["low", "high"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": true,
+        "supportsExcel": true,
+        "supportsPowerPoint": true,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 100
+      }
+    },
+    
+    "claude-3-haiku-20240307": {
+      "id": "claude-3-haiku-20240307",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv"
+      ],
+      "maxFileSizeMB": 15,
+      "maxInputTokens": 50000,
+      "maxConcurrentFiles": 10,
+      "requiresTextWithAttachments": false,
+      "supportsPhotoCapture": true,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg", "webp", "gif"],
+        "maxResolution": "2048x2048",
+        "ocr": true,
+        "detailLevels": ["high"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": false,
+        "supportsExcel": false,
+        "supportsPowerPoint": false,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 30
+      }
+    },
+    
+    "gemini-1.5-pro": {
+      "id": "gemini-1.5-pro",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      ],
+      "maxFileSizeMB": 20,
+      "maxInputTokens": 1000000,
+      "maxConcurrentFiles": 30,
+      "requiresTextWithAttachments": false,
+      "supportsPhotoCapture": true,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg", "webp", "gif"],
+        "maxResolution": "3072x3072",
+        "ocr": true,
+        "detailLevels": ["high"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": true,
+        "supportsExcel": true,
+        "supportsPowerPoint": true,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 20
+      }
+    },
+    
+    "gemini-1.5-flash": {
+      "id": "gemini-1.5-flash",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv"
+      ],
+      "maxFileSizeMB": 20,
+      "maxInputTokens": 800000,
+      "maxConcurrentFiles": 20,
+      "requiresTextWithAttachments": false,
+      "supportsPhotoCapture": true,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg", "webp", "gif"],
+        "maxResolution": "3072x3072",
+        "ocr": true,
+        "detailLevels": ["high"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": true,
+        "supportsExcel": true,
+        "supportsPowerPoint": false,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 15
+      }
+    },
+    
+    "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo": {
+      "id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain"
+      ],
+      "maxFileSizeMB": 10,
+      "maxInputTokens": 8192,
+      "maxConcurrentFiles": 5,
+      "requiresTextWithAttachments": true,
+      "supportsPhotoCapture": false,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg"],
+        "maxResolution": "2048x2048",
+        "ocr": false,
+        "detailLevels": ["auto"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": false,
+        "supportsExcel": false,
+        "supportsPowerPoint": false,
+        "supportsText": true,
+        "supportsCsv": false,
+        "supportsCodeFiles": true,
+        "maxPages": 10
+      }
+    },
+    
+    "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo": {
+      "id": "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain"
+      ],
+      "maxFileSizeMB": 15,
+      "maxInputTokens": 16384,
+      "maxConcurrentFiles": 10,
+      "requiresTextWithAttachments": true,
+      "supportsPhotoCapture": true,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg", "webp"],
+        "maxResolution": "3072x3072",
+        "ocr": true,
+        "detailLevels": ["auto"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": false,
+        "supportsExcel": false,
+        "supportsPowerPoint": false,
+        "supportsText": true,
+        "supportsCsv": false,
+        "supportsCodeFiles": true,
+        "maxPages": 20
+      }
+    },
+    
+    "deepseek/deepseek-v3": {
+      "id": "deepseek/deepseek-v3",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain"
+      ],
+      "maxFileSizeMB": 15,
+      "maxInputTokens": 32768,
+      "maxConcurrentFiles": 5,
+      "requiresTextWithAttachments": true,
+      "supportsPhotoCapture": false,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg"],
+        "maxResolution": "2048x2048",
+        "ocr": true,
+        "detailLevels": ["auto"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": false,
+        "supportsExcel": false,
+        "supportsPowerPoint": false,
+        "supportsText": true,
+        "supportsCsv": false,
+        "supportsCodeFiles": true,
+        "maxPages": 20
+      }
+    },
+    
+    "mistralai/mistral-nemo": {
+      "id": "mistralai/mistral-nemo",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv"
+      ],
+      "maxFileSizeMB": 10,
+      "maxInputTokens": 32768,
+      "maxConcurrentFiles": 5,
+      "requiresTextWithAttachments": true,
+      "supportsPhotoCapture": false,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg"],
+        "maxResolution": "2048x2048",
+        "ocr": true,
+        "detailLevels": ["auto"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": false,
+        "supportsExcel": false,
+        "supportsPowerPoint": false,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 15
+      }
+    },
+    
+    "mistralai/codestral-2501": {
+      "id": "mistralai/codestral-2501",
+      "supportsImages": true,
+      "supportsDocuments": true,
+      "supportedDocumentTypes": [
+        "application/pdf", 
+        "text/plain", 
+        "text/csv"
+      ],
+      "maxFileSizeMB": 15,
+      "maxInputTokens": 24576,
+      "maxConcurrentFiles": 10,
+      "requiresTextWithAttachments": true,
+      "supportsPhotoCapture": false,
+      "visionCapabilities": {
+        "supportedFormats": ["png", "jpeg"],
+        "maxResolution": "2048x2048",
+        "ocr": true,
+        "detailLevels": ["auto"]
+      },
+      "documentCapabilities": {
+        "supportsPdf": true,
+        "supportsWord": false,
+        "supportsExcel": false,
+        "supportsPowerPoint": false,
+        "supportsText": true,
+        "supportsCsv": true,
+        "supportsCodeFiles": true,
+        "maxPages": 20
+      }
+    },
+    
+    "gpt-3.5-turbo": {
+      "id": "gpt-3.5-turbo",
+      "supportsImages": false,
+      "supportsDocuments": false,
+      "supportedDocumentTypes": ["text/plain"],
+      "maxFileSizeMB": 0,
+      "maxInputTokens": 16384,
+      "maxConcurrentFiles": 0,
+      "requiresTextWithAttachments": true,
+      "supportsPhotoCapture": false,
+      "visionCapabilities": null,
+      "documentCapabilities": {
+        "supportsPdf": false,
+        "supportsWord": false,
+        "supportsExcel": false,
+        "supportsPowerPoint": false,
+        "supportsText": false,
+        "supportsCsv": false,
+        "supportsCodeFiles": false,
+        "maxPages": 0
+      }
+    },
+    
+    "meta-llama/Meta-Llama-3-8B-Instruct-Lite": {
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+      "supportsImages": false,
+      "supportsDocuments": false,
+      "supportedDocumentTypes": ["text/plain"],
+      "maxFileSizeMB": 0,
+      "maxInputTokens": 4096,
+      "maxConcurrentFiles": 0,
+      "requiresTextWithAttachments": true,
+      "supportsPhotoCapture": false,
+      "visionCapabilities": null,
+      "documentCapabilities": {
+        "supportsPdf": false,
+        "supportsWord": false,
+        "supportsExcel": false,
+        "supportsPowerPoint": false,
+        "supportsText": false,
+        "supportsCsv": false,
+        "supportsCodeFiles": false,
+        "maxPages": 0
+      }
+    }
+  }
+}
