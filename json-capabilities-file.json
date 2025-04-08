@@ -36,7 +36,38 @@
         "maxPages": 25
       }
     },
-    
+
+"x-ai/grok-beta": {
+  "id": "x-ai/grok-beta",
+  "supportsImages": true,
+  "supportsDocuments": true,
+  "supportedDocumentTypes": [
+    "application/pdf", 
+    "text/plain", 
+    "text/csv"
+  ],
+  "maxFileSizeMB": 10,
+  "maxInputTokens": 16384,
+  "maxConcurrentFiles": 5,
+  "requiresTextWithAttachments": true,
+  "supportsPhotoCapture": true,
+  "visionCapabilities": {
+    "supportedFormats": ["png", "jpeg", "webp", "gif"],
+    "maxResolution": "4096x4096",
+    "ocr": true,
+    "detailLevels": ["auto"]
+  },
+  "documentCapabilities": {
+    "supportsPdf": true,
+    "supportsWord": false,
+    "supportsExcel": false,
+    "supportsPowerPoint": false,
+    "supportsText": true,
+    "supportsCsv": true,
+    "supportsCodeFiles": true,
+    "maxPages": 10
+  }
+},
     "gpt-4o-mini": {
       "id": "gpt-4o-mini",
       "supportsImages": true,
